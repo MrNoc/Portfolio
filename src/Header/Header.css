@@ -1,0 +1,78 @@
+
+.menu {
+    display: flex;
+    grid-gap: 20px;
+    color: #fb9961;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+   
+}
+
+.contato {
+    background-color: rgb(22, 18, 18);
+    border-radius: 50%;
+    grid-gap: 40px;
+}
+
+#linkedin {
+    color: #fb9961;
+    cursor: pointer;
+    animation: linkedin 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes linkedin {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+#linkedin:hover {
+    color: rgb(235, 228, 228);
+    background-color:  #0072b1;
+    border-radius: 50%;
+   
+    
+}
+
+#github {
+    color: #fb9961;
+    cursor: pointer;
+}
+#github:hover {
+    color: rgb(235, 228, 228);
+    background-color: rgb(12, 1, 1);
+    border-radius: 50%;
+}
+#whatsapp {
+    color: #fb9961;
+    cursor: pointer;
+}
+#whatsapp:hover {
+    color: white;
+    background-color: #075e24;
+    border-radius: 50%;
+}
+#about:hover {
+    color: rgb(102, 91, 116);
+    cursor:pointer;
+    
+}
+
+#featured:hover {
+    color: rgb(102, 91, 116);
+    cursor:pointer;
+}
+
+#portfolio:hover {
+    color: rgb(102, 91, 116);
+    cursor:pointer;
+}
+
+#contact:hover {
+    color: rgb(102, 91, 116);
+    cursor:pointer;
+}
