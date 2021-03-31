@@ -1,41 +1,50 @@
 
-.menu {
+header {
     display: flex;
-    grid-gap: 20px;
-    color: #fb9961;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #282c34;
+}
+nav {
+    margin-top:0%;
+    display:flex;
     text-align: center;
-    justify-content: center;
-    font-family: cursive;
-   
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fb8061;
+    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
 }
 
-.contato {
-    background-color: rgb(22, 18, 18);
-    border-radius: 50%;
-    grid-gap: 40px;
+nav ul {
+    display: flex;
+    margin-left: 100px;
+    grid-gap: 20px;
+    text-decoration: none;
 }
 
+/* Redes sociais */
+.social {
+    display: flex;
+    grid-gap: 15px;
+    margin-left: 300px;
+    
+}
 #linkedin {
     color: #fb9961;
     cursor: pointer;
     animation: linkedin 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes linkedin {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
 #linkedin:hover {
     color: rgb(235, 228, 228);
     background-color:  #0072b1;
     border-radius: 50%;
-   
-    
+    text-shadow: 0 0 25px #fffefe;
+    transition: all 0.9s ease;
 }
 
 #github {
@@ -46,6 +55,8 @@
     color: rgb(235, 228, 228);
     background-color: rgb(12, 1, 1);
     border-radius: 50%;
+    text-shadow: 0 0 25px #fffefe;
+    transition: all 0.9s ease;
 }
 #whatsapp {
     color: #fb9961;
@@ -55,24 +66,40 @@
     color: white;
     background-color: #075e24;
     border-radius: 50%;
+    text-shadow: 0 0 25px #fffefe;
+    transition: all 0.9s ease;
+}
+
+/* Menu */
+#home:hover {
+    color: rgb(255, 253, 253);
+    cursor:pointer;
+    text-shadow: 0 0 25px #fffefe;
+    transition: all 0.9s ease 0s;
+    
 }
 #about:hover {
-    color: rgb(102, 91, 116);
+    color: rgb(255, 253, 253);
     cursor:pointer;
+    text-shadow: 0 0 25px #fffefe;
+    transition: all 0.9s ease 0s;
     
 }
 
 #featured:hover {
-    color: rgb(102, 91, 116);
+    color: rgb(255, 253, 253);
     cursor:pointer;
+    text-shadow: 0 0 25px #fffefe;
+    transition: all 0.9s ease;
+    
 }
 
 #portfolio:hover {
-    color: rgb(102, 91, 116);
+    color: rgb(255, 253, 253);
     cursor:pointer;
+    text-shadow: 0 0 25px #fffefe;
+    transition: all 0.9s ease;
+    
 }
 
-#contact:hover {
-    color: rgb(102, 91, 116);
-    cursor:pointer;
-}
+
