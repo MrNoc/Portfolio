@@ -2,10 +2,10 @@
 header {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    position: fixed;
     width: 100%;
+    height: 150px;
     background-color: #282c34;
+    
 }
 nav {
     margin-top:0%;
@@ -18,12 +18,27 @@ nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     
 }
+nav a{
+    text-decoration: none;
+    color: #fb8061;
+    cursor:pointer;
+    transition: all 0.9s ease 0s;
+    -webkit-transition: 0.40s all ease-in-out;
+	-moz-transition: 0.40s all ease-in-out;
+	-o-transition: 0.40s all ease-in-out;
+	transition: 0.40s all ease-in-out;
+}
+nav a:hover{
+    color: rgb(255, 253, 253);
+    text-shadow: 0 0 25px #fffefe;
+}
 
 nav ul {
     display: flex;
     margin-left: 100px;
     grid-gap: 20px;
     text-decoration: none;
+    font-size: larger;
 }
 
 /* Redes sociais */
@@ -37,6 +52,10 @@ nav ul {
     color: #fb9961;
     cursor: pointer;
     animation: linkedin 1s ease-in-out infinite alternate;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
 }
 
 #linkedin:hover {
@@ -44,62 +63,39 @@ nav ul {
     background-color:  #0072b1;
     border-radius: 50%;
     text-shadow: 0 0 25px #fffefe;
-    transition: all 0.9s ease;
+   
+}
+a{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
 }
 
 #github {
+    
     color: #fb9961;
     cursor: pointer;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
 }
 #github:hover {
     color: rgb(235, 228, 228);
     background-color: rgb(12, 1, 1);
     border-radius: 50%;
     text-shadow: 0 0 25px #fffefe;
-    transition: all 0.9s ease;
 }
 #whatsapp {
     color: #fb9961;
     cursor: pointer;
+    text-shadow: 0 0 25px #fffefe;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
 }
 #whatsapp:hover {
     color: white;
     background-color: #075e24;
     border-radius: 50%;
-    text-shadow: 0 0 25px #fffefe;
-    transition: all 0.9s ease;
-}
-
-/* Menu */
-#home:hover {
-    color: rgb(255, 253, 253);
-    cursor:pointer;
-    text-shadow: 0 0 25px #fffefe;
-    transition: all 0.9s ease 0s;
     
 }
-#about:hover {
-    color: rgb(255, 253, 253);
-    cursor:pointer;
-    text-shadow: 0 0 25px #fffefe;
-    transition: all 0.9s ease 0s;
-    
-}
-
-#featured:hover {
-    color: rgb(255, 253, 253);
-    cursor:pointer;
-    text-shadow: 0 0 25px #fffefe;
-    transition: all 0.9s ease;
-    
-}
-
-#portfolio:hover {
-    color: rgb(255, 253, 253);
-    cursor:pointer;
-    text-shadow: 0 0 25px #fffefe;
-    transition: all 0.9s ease;
-    
-}
-
-

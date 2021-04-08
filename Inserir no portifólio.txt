@@ -1,0 +1,5 @@
+- Funçao em JS 
+- Luz que quando clica muda o fundo
+
+Tudo apagado e um interruptor pra acender a luz.
+Ou puxar corda e cair a pagina do portfolio

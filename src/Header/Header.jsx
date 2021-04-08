@@ -4,20 +4,24 @@ import './Header.css';
 
 
 function header(props) {
+
   return (
+    
     <header className="App-header">
-
+<button>PT🇧🇷</button>
       <nav>
-
+      
         <img src={logo} className="App-logo" alt="logo" />
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer"></a>
 
 
         <ul className="my-menu">
-          <li id="home">{props.home}<a href="/"></a></li>
-          <li id="about">{props.about}<a href="/"></a></li>
-          <li id="featured">{props.featured}<a href="/"></a></li>
-          <li id="portfolio">{props.portfolio}<a href="/"></a></li>
+          
+          <li><a href="#home">{props.home}</a></li>
+          <li><a href="#about-container">{props.sobre}</a></li>
+          <li><a href="#projects-title">{props.portfolio}</a></li>
+          <li><a href="#portfolio">{props.contato}</a></li>
+
         </ul>
 
         <ul class="social">

@@ -2,82 +2,265 @@ section {
     background-color: rgb(161, 154, 148);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 20%;
-    padding: 60px;
-}
-section h3 {
-    margin-top: 10px;
-    color: #000000;
-    display: block;
-    position: absolute;
-    background-color: red;
-    text-align: center;
-    justify-content: center;
+    padding: 40px;
+    font-family: 'Garamond','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
-.items {
-    display: flex;
-    justify-content: center;
-    grid-gap: 50px;
+section p {
+    margin-top: 20px;
+}
+
+
+.last-projects {
+    text-align: center;
     
 }
 
-/*Imagens do slide show.*/
-#devRadar{
-    max-width:150px;
+/*Sobre mim */
+.about-me {
+    width: 450px;
+    display: block;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+    
+}
+.about-me:hover {
+    list-style: none;
+    color: rgb(255, 253, 253);
+    text-shadow: 0 0 25px #fffefe;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+}
+
+/*Seta para voltar pro topo da página. */
+.back-top a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0%   {bottom: 100px;}
+  }
+.back-top img{
+    max-width: 100px;    
+    max-height: 100px;
+}
+
+/*Meus projetos já executados. */
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 60px;
+    padding: 50px;
+    
+}
+
+a h2 {
+    
+    padding: 13px;
+}
+#bola {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+  }
+#devRadar {
+    max-width: 150px;
     transition: transform 1s;
     transform: translateX(5px) scale(0.8);
-
 }
 
 #devRadar:hover,
 #devRadar:focus {
-  
-  transform: translateX(15px) scale(1.1);
-  
+    transform: translateX(15px) scale(1.1);
 }
 
+
+/*Imagens do slide show.*/
+
+li h2,
+a h2 {
+    color: rgb(10, 8, 8);
+    justify-content: center;
+    font-size: large;
+}
 .my-game-box {
-  margin-top: 90px;
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  perspective: 1000px;
-  
+    margin-top: 60px;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
 }
 
 .my-game-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
 .my-game-box:hover .my-game-box-inner {
-  transform: rotateX(180deg);
-  
+    transform: rotateX(180deg);
 }
 
-.my-game-box-front, .my-game-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+.my-game-box-front,
+.my-game-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .my-game-box-front {
-  background-color: rgb(155, 140, 140);
-  color: rgb(5, 3, 3);
-  border: solid #fb8061;
+    background-color: rgb(155, 140, 140);
+    color: rgb(5, 3, 3);
+    border: solid #fb8061;
 }
 
 .my-game-box-back {
-  background-color: rgb(100, 109, 117);
-  color: white;
-  transform: rotateX(180deg);
-  border: #fb8061;
-  
+    background-color: rgb(100, 109, 117);
+    color: white;
+    transform: rotateX(180deg);
+    border: #fb8061;
 }
 
+.about-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 120px;
+    
+}
+
+/*
+.about-container:hover {
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20%;
+}*/
+
+
+
+
+ul.social-contact{
+    display: block;
+    background-color:none;
+    margin: 10px;
+    grid-gap: 10px;
+    
+}
+.social-contact li {
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    text-rendering: optimizeLegibility;
+    list-style-type: none;
+    text-decoration: none;
+    color: #0a0e0f;
+    display:flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+.social-contact li:hover {
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    text-rendering: optimizeLegibility;
+    list-style-type: none;
+    text-decoration: none;
+    color: #0a0e0f;
+    display:flex;
+    font-size:18px;
+    align-items: center;
+    grid-gap: 10px;
+    opacity: 0.8;
+}
+
+.social-contact img {
+    max-width: 40px;
+    background-color: none;
+    border-radius: 100%;
+    background-color: wheat;
+}
+
+
+#linkedin-icon{
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    text-rendering: optimizeLegibility;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+}
+#linkedin-icon:hover{
+    list-style: none;
+    color: #0982c0;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+    
+}
+
+#whatsapp-icon {
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    text-rendering: optimizeLegibility;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+}
+#whatsapp-icon:hover {
+    list-style: none;
+    color: #09c055;
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+}
+.contato-container {
+    
+    display: block;
+    text-align: left;
+    margin-left: 90px;
+    
+}
+
+.contato {
+    margin-left: 30px;
+    
+}
