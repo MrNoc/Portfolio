@@ -6,7 +6,6 @@ main {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 60px;
-    
     margin-bottom: 100px;
     padding-top: 30px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -15,23 +14,22 @@ main {
 }
 main p{
     color: #241f1e;
-    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 main p:hover{
     color: #241f1e;
-    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 
  h1 {
     font-size: 3.4rem;
     line-height: 1.2em;
-    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: -0.07em;
-  
+    color: black;
     
 }
- 
 
 main ul:hover {
   opacity: 0.5;
@@ -40,6 +38,18 @@ main ul:hover {
 	-moz-transition: 0.35s all ease-in-out;
 	-o-transition: 0.35s all ease-in-out;
 	transition: 0.35s all ease-in-out;
+}
+
+main ul li a{
+  font-size: 3.4rem;
+  line-height: 1.2em;
+  letter-spacing: -0.07em;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  opacity: 1.0;
 }
 
 /*
@@ -64,6 +74,26 @@ main ul:hover {
   }
   */
 #myImage{
+  opacity: 1.5;
+  cursor: pointer;
+  -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50%;
+    box-shadow: rgba(184, 171, 179, 0.4) 5px 5px, rgba(3, 3, 3, 0.726) 10px 10px, rgba(165, 148, 141, 0.507) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+#myImage:hover{
+  opacity: 0.5;
+  
+  -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
     margin-top: 20px;
     margin-bottom: 20px;
     max-width: 400px;

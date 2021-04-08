@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './Header.css';
 
 
 function header(props) {
 
   return (
-    
-    <header className="App-header">
-<button>PT🇧🇷</button>
-      <nav>
-      
-        <img src={logo} className="App-logo" alt="logo" />
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer"></a>
 
+    <header className="App-header">
+      {/* <button>PT🇧🇷</button> */}
+      <nav>
+
+
+
+
+      <a href="http://localhost:3000/" id="logo">W.</a>
 
         <ul className="my-menu">
           
-          <li><a href="#home">{props.home}</a></li>
           <li><a href="#about-container">{props.sobre}</a></li>
-          <li><a href="#projects-title">{props.portfolio}</a></li>
-          <li><a href="#portfolio">{props.contato}</a></li>
+          <li><a href="#portfolio">{props.portfolio}</a></li>
+          <li><a href="#contato">{props.contato}</a></li>
 
         </ul>
 

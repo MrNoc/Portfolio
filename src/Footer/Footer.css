@@ -1,17 +1,147 @@
+
 footer {
     text-align: center;
-    color: #fb9961;
     background-color: #282c34;
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+ul.social-contact{
+  display: block;
+  background-color:none;
+  margin: 10px;
+  grid-gap: 10px;
+  
+}
+.social-contact li {
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  text-rendering: optimizeLegibility;
+  list-style-type: none;
+  text-decoration: none;
+  color: #0a0e0f;
+  display:flex;
+  align-items: center;
+  grid-gap: 10px;
+  width: 470px;
+}
+.social-contact li:hover {
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  text-rendering: optimizeLegibility;
+  list-style-type: none;
+  text-decoration: none;
+  color: #0a0e0f;
+  background-color: rgb(231, 230, 231);
+  border-radius: 9%;
+  display:flex;
+  font-size:18px;
+  align-items: center;
+  grid-gap: 10px;
+  opacity: 0.8;
+}
+
+.social-contact img {
+  max-width: 40px;
+  background-color: none;
+  border-radius: 100%;
+  background-color: wheat;
+}
+
+
+#linkedin-icon{
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  text-rendering: optimizeLegibility;
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  -webkit-transition: 0.35s all ease-in-out;
+-moz-transition: 0.35s all ease-in-out;
+-o-transition: 0.35s all ease-in-out;
+transition: 0.35s all ease-in-out;
+  text-rendering: optimizeLegibility;
+  display:flex;
+  align-items: center;
+  grid-gap: 10px;
+  width: 470px;
+}
+#linkedin-icon:hover{
+  list-style: none;
+  color: #0982c0;
+  -webkit-transition: 0.35s all ease-in-out;
+-moz-transition: 0.35s all ease-in-out;
+-o-transition: 0.35s all ease-in-out;
+transition: 0.35s all ease-in-out;
+
+}
+
+#whatsapp-icon {
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  text-rendering: optimizeLegibility;
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  -webkit-transition: 0.35s all ease-in-out;
+-moz-transition: 0.35s all ease-in-out;
+-o-transition: 0.35s all ease-in-out;
+transition: 0.35s all ease-in-out;
+text-rendering: optimizeLegibility;
+  display:flex;
+  align-items: center;
+  grid-gap: 10px;
+  width: 470px;
+}
+#whatsapp-icon:hover {
+  list-style: none;
+  color: #09c055;
+  -webkit-transition: 0.35s all ease-in-out;
+-moz-transition: 0.35s all ease-in-out;
+-o-transition: 0.35s all ease-in-out;
+transition: 0.35s all ease-in-out;
+}
+.contato-container {
+  
+  display: block;
+  text-align: left;
+  margin-left: 90px;
+  
+}
+
+.contato {
+  margin-left: 30px;
+  
+}
 span{
+    color: yellow;
+    padding: 10px;
+    cursor: pointer;
+
+}
+span:hover{
     color: rgb(7, 5, 2);
+    border: yellow 20px;
+    font-size: 8px;
+    -webkit-transition: 0.35s all ease-in-out;
+-moz-transition: 0.35s all ease-in-out;
+-o-transition: 0.35s all ease-in-out;
+transition: 0.35s all ease-in-out;
 }
 .checked {
     color: yellow;
   }
-  footer a{
-    color: #fb9961;
+.checked:hover {
+    color: rgb(14, 14, 10);
+  }
+
+  h2{
+    color: whitesmoke;
+    opacity: 0.9;
+  }
+  .transition {
+    color: whitesmoke;
+    opacity: 0.9;
+    text-decoration: none;
+    scroll-behavior: smooth;
   }
