@@ -65,7 +65,7 @@ function aside(props) {
 
             </div>
 
-            <h2 id="skills">SKILLS</h2>
+            <h2 id="skills">SKILL'S</h2>
             <div className="skills">
 
 
