@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.31e6cf3e.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c714278d.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c714278d.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.4e7660cb.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.4e7660cb.js.map",
-    "static/js/2.ad74ead6.chunk.js": "/Portfolio/static/js/2.ad74ead6.chunk.js",
-    "static/js/2.ad74ead6.chunk.js.map": "/Portfolio/static/js/2.ad74ead6.chunk.js.map",
-    "static/js/3.cf21a8f1.chunk.js": "/Portfolio/static/js/3.cf21a8f1.chunk.js",
-    "static/js/3.cf21a8f1.chunk.js.map": "/Portfolio/static/js/3.cf21a8f1.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.a1f1d91b.chunk.css",
+    "main.js": "/Portfolio/static/js/main.2e06fbe2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2e06fbe2.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.3f1a1529.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.3f1a1529.js.map",
+    "static/js/2.267411db.chunk.js": "/Portfolio/static/js/2.267411db.chunk.js",
+    "static/js/2.267411db.chunk.js.map": "/Portfolio/static/js/2.267411db.chunk.js.map",
+    "static/js/3.b2f1f69d.chunk.js": "/Portfolio/static/js/3.b2f1f69d.chunk.js",
+    "static/js/3.b2f1f69d.chunk.js.map": "/Portfolio/static/js/3.b2f1f69d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.31e6cf3e.chunk.css.map": "/Portfolio/static/css/main.31e6cf3e.chunk.css.map",
-    "static/js/2.ad74ead6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ad74ead6.chunk.js.LICENSE.txt",
+    "static/css/main.a1f1d91b.chunk.css.map": "/Portfolio/static/css/main.a1f1d91b.chunk.css.map",
+    "static/js/2.267411db.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.267411db.chunk.js.LICENSE.txt",
+    "static/media/circular.0d136611.gif": "/Portfolio/static/media/circular.0d136611.gif",
     "static/media/cssicon.574ff570.png": "/Portfolio/static/media/cssicon.574ff570.png",
     "static/media/devRadar-image.0380646f.png": "/Portfolio/static/media/devRadar-image.0380646f.png",
     "static/media/game-image.1bae5a5f.png": "/Portfolio/static/media/game-image.1bae5a5f.png",
@@ -26,9 +27,9 @@
     "static/media/whatsapp.c4e33b6e.png": "/Portfolio/static/media/whatsapp.c4e33b6e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e7660cb.js",
-    "static/js/2.ad74ead6.chunk.js",
-    "static/css/main.31e6cf3e.chunk.css",
-    "static/js/main.c714278d.chunk.js"
+    "static/js/runtime-main.3f1a1529.js",
+    "static/js/2.267411db.chunk.js",
+    "static/css/main.a1f1d91b.chunk.css",
+    "static/js/main.2e06fbe2.chunk.js"
   ]
 }
