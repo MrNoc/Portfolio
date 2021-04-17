@@ -1,17 +1,16 @@
 
+
 footer {
-    text-align: center;
-    background-color: #282c34;
-    padding: 40px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+  background-color: #282c34;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 ul.social-contact{
   display: block;
+  text-align: center;
   background-color:none;
-  margin: 10px;
-  grid-gap: 10px;
-  
 }
 .social-contact li {
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -21,8 +20,7 @@ ul.social-contact{
   color: #0a0e0f;
   display:flex;
   align-items: center;
-  grid-gap: 10px;
-  width: 470px;
+  
 }
 .social-contact li:hover {
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -30,118 +28,189 @@ ul.social-contact{
   list-style-type: none;
   text-decoration: none;
   color: #0a0e0f;
-  background-color: rgb(231, 230, 231);
   border-radius: 9%;
-  display:flex;
-  font-size:18px;
+  display:flex;  
   align-items: center;
-  grid-gap: 10px;
   opacity: 0.8;
 }
 
 .social-contact img {
-  max-width: 40px;
+  max-width: 7%;
   background-color: none;
   border-radius: 100%;
-  background-color: wheat;
+  
 }
 
 
 #linkedin-icon{
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  text-rendering: optimizeLegibility;
-  list-style-type: none;
-  cursor: pointer;
   text-decoration: none;
   color: whitesmoke;
-  padding: 10px;
+  padding: 10px 0px 10px 0px;
   -webkit-transition: 0.35s all ease-in-out;
--moz-transition: 0.35s all ease-in-out;
--o-transition: 0.35s all ease-in-out;
-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
   text-rendering: optimizeLegibility;
   display:flex;
   align-items: center;
-  grid-gap: 10px;
-  width: 470px;
+  grid-gap:6px;
+  width: 390px;
+  
 }
 #linkedin-icon:hover{
   list-style: none;
   color: #0982c0;
+  padding: 10px 0px 10px 0px;
   -webkit-transition: 0.35s all ease-in-out;
--moz-transition: 0.35s all ease-in-out;
--o-transition: 0.35s all ease-in-out;
-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
 
 }
 
 #whatsapp-icon {
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  text-rendering: optimizeLegibility;
-  list-style-type: none;
-  cursor: pointer;
   text-decoration: none;
   color: whitesmoke;
-  padding: 10px;
   -webkit-transition: 0.35s all ease-in-out;
--moz-transition: 0.35s all ease-in-out;
--o-transition: 0.35s all ease-in-out;
-transition: 0.35s all ease-in-out;
-text-rendering: optimizeLegibility;
+  -moz-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
+  text-rendering: optimizeLegibility;
   display:flex;
   align-items: center;
-  grid-gap: 10px;
-  width: 470px;
+  width: 390px;
+  grid-gap:6px;
+  padding: 10px 0px 10px 0px;
 }
 #whatsapp-icon:hover {
   list-style: none;
   color: #09c055;
   -webkit-transition: 0.35s all ease-in-out;
--moz-transition: 0.35s all ease-in-out;
--o-transition: 0.35s all ease-in-out;
-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
 }
 .contato-container {
-  
+  width: 100%;
+  opacity: 0.8;
   display: block;
   text-align: left;
-  margin-left: 90px;
+  padding: 20px 30px 32px 110px;
+  -webkit-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
+}
+
+.contato-container:hover {
+  width: 100%;
+  opacity: 0.9;
+  display: block;
+  text-align: left;
+  padding: 20px 30px 32px 110px;
+  -webkit-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
   
 }
 
-.contato {
-  margin-left: 30px;
-  
-}
+
 span{
-    color: yellow;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     cursor: pointer;
-
+    color: rgb(7, 5, 2);
 }
 span:hover{
-    color: rgb(7, 5, 2);
-    border: yellow 20px;
-    font-size: 8px;
+    color: yellow;
+    border: rgb(10, 10, 9) 20px;
     -webkit-transition: 0.35s all ease-in-out;
--moz-transition: 0.35s all ease-in-out;
--o-transition: 0.35s all ease-in-out;
-transition: 0.35s all ease-in-out;
+    -moz-transition: 0.35s all ease-in-out;
+    -o-transition: 0.35s all ease-in-out;
+    transition: 0.35s all ease-in-out;
 }
+/*
 .checked {
     color: yellow;
   }
 .checked:hover {
     color: rgb(14, 14, 10);
+    
   }
-
+*/
+#back-top a{
+  
+  align-items: center;
+  justify-content: center;
+}
+#back-top a img{
+  max-width: 100px;
+  align-items: center;
+  justify-content: center;
+  
+}
   h2{
     color: whitesmoke;
     opacity: 0.9;
+    padding: 10px 0px 10px 0px;
   }
-  .transition {
+  #transition{
     color: whitesmoke;
-    opacity: 0.9;
+    opacity: 1.5;
     text-decoration: none;
-    scroll-behavior: smooth;
+  }
+  
+  #transition:hover {
+    color: whitesmoke;
+    opacity: 0.4;
+    text-decoration: none;
+  }
+  button{
+    margin-left: 10px;
+  }
+  #countdown {
+    background-color: rgb(93, 175, 223);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 55%; right: 540px;
+    font-size: 25px;
+    color: rgb(240, 225, 224);
+    box-shadow: 0 0 24px 0 rgb(119, 125, 129);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+  
+  .time h2 {
+    margin: 0 0 5px;
+  }
+  
+  @media (max-width: 200px) {
+    h1 {
+      font-size: 45px;
+    }
+  
+    .time {
+      margin: 5px;
+    }
+  
+    .time h2 {
+      font-size: 12px;
+      margin: 0;
+    }
+  
+    .time small {
+      font-size: 10px;
+    }
   }

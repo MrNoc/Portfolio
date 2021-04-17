@@ -2,7 +2,7 @@ section {
     margin: 0;
     padding: 0;
     background-color: rgb(161, 154, 148);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     font-family: 'Garamond','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -39,14 +39,7 @@ section p {
 }
 
 /*Seta para voltar pro topo da página. */
-.back-top a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      
-    position: relative;
-    animation: mymove 5s infinite;
-}
+
 @keyframes mymove {
     0%   {bottom: 100px;}
   }
@@ -66,11 +59,11 @@ section p {
     
     
 }
-
-a h2 {
-    
-    padding: 13px;
+#frase-motiv{
+    color: black;
 }
+
+
 #bola {
     width: 100px;
     height: 100px;
@@ -101,8 +94,7 @@ a h2 {
 
 /*Imagens do slide show.*/
 
-li h2,
-a h2 {
+.my-game-box li {
     color: rgb(10, 8, 8);
     
     font-size: 40px;
@@ -162,30 +154,82 @@ a h2 {
     
 }
 
-.skills{
+#skills{
     width: 100%;
+    color:#a5a09e;
+    font-size: 70px;
+    opacity:0.5;
     height: 417px;
-    background-image: url('../Main/images/teste.PNG'); 
+    background-image: url('../Main/images/techsWallpaper.JPG'); 
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+}
+#skills:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    opacity:1.1;
+    width: 100%;
+    padding:200px;
+    height: 417px;
+    background-image: url('../Main/images/techsWallpaper.JPG'); 
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+@keyframes pulse {
+    0% {
+         transform: scale(1); 
+        }
+    50% {
+         transform: scale(1.1);
+    }
+    100% { transform: scale(1); }
+    }
+
+.techs a{
+ 
+    padding:20px;
+   
+
+ 
+}
+.techs{
+    font-family: Raleway, sans-serif;
+    padding:20px;
+    text-align: center;
+    line-height: 52px;   
+    /*animation: mymove 10s infinite;*/
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
+}
+.techs:hover{
+    opacity: 1.1;
+    background-color: rgb(235, 241, 235);
+    -webkit-transition: 0.35s all ease-in-out;
+	-moz-transition: 0.35s all ease-in-out;
+	-o-transition: 0.35s all ease-in-out;
+	transition: 0.35s all ease-in-out;
     
 }
 
-.techs{
-    opacity: 0.8;
-    background-color: rgb(123, 138, 122);
-}
-
 .techs img {
-    opacity: 0.5;
     max-width: 80px;
     grid-gap: 120px;
     align-items: center;
     
 }
 .techs img:hover {
-    opacity: 1.5;
-    max-width: 80px;
-    grid-gap: 120px;
-    align-items: center;
+   box-shadow: rgb(7, 6, 6);
+   opacity: 1.5;
     
 }
 .techs a {
@@ -202,6 +246,7 @@ a h2 {
     max-width: 150px;
     
   }
+
 
 @media (prefers-reduced-motion: no-preference) {
    #React-Logo {

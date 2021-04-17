@@ -1,4 +1,9 @@
 
+@media (max-width: 1112px) {
+  main {
+     flex-direction: column;
+  }
+}
 main {
     display:flex;
     text-align: center;
@@ -82,22 +87,21 @@ main ul li a{
 	transition: 0.35s all ease-in-out;
     margin-top: 20px;
     margin-bottom: 20px;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 3000px;
+    max-height: 300px;
     border-radius: 50%;
     box-shadow: rgba(184, 171, 179, 0.4) 5px 5px, rgba(3, 3, 3, 0.726) 10px 10px, rgba(165, 148, 141, 0.507) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 #myImage:hover{
-  opacity: 0.5;
-  
+  opacity: 0.8;
   -webkit-transition: 0.35s all ease-in-out;
 	-moz-transition: 0.35s all ease-in-out;
 	-o-transition: 0.35s all ease-in-out;
 	transition: 0.35s all ease-in-out;
     margin-top: 20px;
     margin-bottom: 20px;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 310px;
+    max-height: 310px;
     border-radius: 50%;
     box-shadow: rgba(184, 171, 179, 0.4) 5px 5px, rgba(3, 3, 3, 0.726) 10px 10px, rgba(165, 148, 141, 0.507) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }

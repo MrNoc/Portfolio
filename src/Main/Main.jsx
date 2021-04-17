@@ -22,7 +22,7 @@ const Main = (props) => {
                 <p>Designer de interface, com paixão por criar experiências <br></br> de usuário bonitas e funcionais.<br></br>Minimalista que acredita que menos é mais.</p>
             </ul>            
             
-            <a href="http://localhost:3000/"><img src={me} id="myImage" alt="me" /></a>
+            <a href="https://mrnoc.github.io/Portfolio/"><img src={me} id="myImage"/></a>
 
             <ul className="coder">
                 <li><a href="#skills">&lt;{props.coder}&gt;</a></li>

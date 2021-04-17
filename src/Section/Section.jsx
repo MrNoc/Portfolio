@@ -7,11 +7,13 @@ import me from '../Main/images/me.jpg'
 import html from '../Main/images/htmlicon.png'
 import css from '../Main/images/cssicon.png'
 import vue from '../Main/images/vueicon.png'
+import sql from '../Main/images/sql.png'
 import mongoDB from '../Main/images/mongoicon.png'
 import logo from '../Header/logo.svg'
 
 
-import backToTop from '../Main/images/top.gif'
+
+
 
 
 /*
@@ -65,24 +67,24 @@ function aside(props) {
 
             </div>
 
-            <h2 id="skills">SKILL'S</h2>
-            <div className="skills">
+            <h3 id="skills"><p>Tecnologias:</p></h3>
 
 
-                <div className="techs">
-                    <a><img src={html} /></a>
-                    <a><img src={css} /></a>
-                    <img src={logo} id="React-Logo" />
-                    <a><img src={vue} /></a>
-                    <a><img src={mongoDB} /></a>
-                </div>
+
+            <div className="techs">
+                <a><img src={html} /></a>
+                <a><img src={css} /></a>
+                <img src={logo} id="React-Logo" />
+                <a><img src={vue} /></a>
+                <a><img src={sql} /></a>
+                <a><img src={mongoDB} /></a>
+                
+                <div className="skills"> </div>
+                <h2 id="frase-motiv">Tente uma, duas, três vezes e se possível tente a quarta, a quinta e quantas vezes for necessário. Só não desista nas primeiras tentativas, a persistência é amiga da conquista. Se você quer chegar a onde a maioria não chega, faça o que a maioria não faz. <br></br>Bill Gates </h2>
             </div>
 
-            <div className="back-top" >
-                <a href="#top"><img src={backToTop} width="15%" height="15%" /></a>
 
 
-            </div>
 
         </section>
     );
