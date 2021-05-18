@@ -9,7 +9,7 @@ Como startar a interface FrontEnd:
 Abra o terminal, vá até o diretório que contém a pasta src e digite: yarn start
 
 
-Veja algumas imagens a seguir:
+Veja algumas imagens a seguir da versão 1.4:
 ![image](https://user-images.githubusercontent.com/46411240/113995790-f1582200-982c-11eb-8f9e-43ca7a358889.png)
 ![image](https://user-images.githubusercontent.com/46411240/113995838-fd43e400-982c-11eb-990d-a915594e91dd.png)
 ![image](https://user-images.githubusercontent.com/46411240/113995892-092fa600-982d-11eb-8de9-1d5ce8f83602.png)
