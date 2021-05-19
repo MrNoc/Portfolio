@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1c939c40.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d26abc98.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d26abc98.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.d86329cf.chunk.css",
+    "main.js": "/Portfolio/static/js/main.36954767.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.36954767.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.11eba3de.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.11eba3de.js.map",
     "static/js/2.462d8463.chunk.js": "/Portfolio/static/js/2.462d8463.chunk.js",
     "static/js/2.462d8463.chunk.js.map": "/Portfolio/static/js/2.462d8463.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.1c939c40.chunk.css.map": "/Portfolio/static/css/main.1c939c40.chunk.css.map",
+    "static/css/main.d86329cf.chunk.css.map": "/Portfolio/static/css/main.d86329cf.chunk.css.map",
     "static/js/2.462d8463.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.462d8463.chunk.js.LICENSE.txt",
     "static/media/MobilesLP.dd34a441.PNG": "/Portfolio/static/media/MobilesLP.dd34a441.PNG",
     "static/media/VivoTravel.1bdd2880.png": "/Portfolio/static/media/VivoTravel.1bdd2880.png",
@@ -16,6 +16,7 @@
     "static/media/devRadar-image.b7607f48.png": "/Portfolio/static/media/devRadar-image.b7607f48.png",
     "static/media/game-image.4fe2cf4b.png": "/Portfolio/static/media/game-image.4fe2cf4b.png",
     "static/media/htmlicon.83c69b8a.png": "/Portfolio/static/media/htmlicon.83c69b8a.png",
+    "static/media/linkedin-icon.95934116.png": "/Portfolio/static/media/linkedin-icon.95934116.png",
     "static/media/me.9e6b3a8a.jpg": "/Portfolio/static/media/me.9e6b3a8a.jpg",
     "static/media/mongoicon.731afbc4.png": "/Portfolio/static/media/mongoicon.731afbc4.png",
     "static/media/myImage.8be50b16.jpg": "/Portfolio/static/media/myImage.8be50b16.jpg",
@@ -27,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.11eba3de.js",
     "static/js/2.462d8463.chunk.js",
-    "static/css/main.1c939c40.chunk.css",
-    "static/js/main.d26abc98.chunk.js"
+    "static/css/main.d86329cf.chunk.css",
+    "static/js/main.36954767.chunk.js"
   ]
 }
